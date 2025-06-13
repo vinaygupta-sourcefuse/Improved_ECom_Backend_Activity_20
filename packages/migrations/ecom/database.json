@@ -1,0 +1,22 @@
+{
+    "defaultEnv": "master",
+    "master": {
+      "driver": "pg",
+      "host": {
+        "ENV": "ECOM_DB_HOST"
+      },
+      "port": {
+        "ENV": "ECOM_DB_PORT"
+      },
+      "user": {
+        "ENV": "ECOM_DB_USER"
+      },
+      "password": {
+        "ENV": "ECOM_DB_PASSWORD"
+      },
+      "database": {
+        "ENV": "ECOM_DB_DATABASE"
+      }
+    },
+    "sql-file": true
+}
